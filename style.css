@@ -1,0 +1,21 @@
+* {margin: 0;padding: 0;border: 0;}
+body {padding: 2% 0 0;background: #fff;color: black;}
+#container {width: 1350 px;margin: 0 auto;}
+#header {width: 1350 px;height:80px;text-align:center;color:#000080}
+.nav {background: #00BFFF; color: #000080; font-size: 14pt; font-weight: bold; text-align: center;}
+.nav a {text-decoration: none; display: block; transition: .5s linear;}
+.nav ul {list-style: none; margin: 0; padding: 0;}
+.topmenu > li {display: inline-block; position: relative; width: 200px;}
+.topmenu > li > a {font-weight: bold; padding: 10px 30px; font-size: 14pt; color: #000080;}
+.submenu {position: absolute; left: 10px; z-index: 5; width: 240px; visibility: hidden; 
+opacity: 0; transform: translateY(10px); transition: .5s ease-in-out;}
+.submenu li {position: relative; border: 1px solid #999; margin:2px;}
+.submenu a {background: #00BFFF; color: #000080; text-align: center; font-size: 14px;padding: 10px 20px;}
+.submenu .submenu {position: absolute; top: 0; left: 200px;}
+.nav li:hover > .submenu {visibility: visible; opacity: 1; transform: translateY(0px);}
+#text { font-size: 14pt; color: #000080; margin: 10px auto;float: left;} 
+#text a {color: #4B0082;} 
+#text a:hover {color: #f36;border-bottom: #f36 dotted 1px;}
+#text a:active {color: red;}
+#text a:link {color: #4B0082;}
+#text p {text-align: justify;text-indent: 1.5em; margin: 0;padding: 0 20px;color:#000080; font-size: 14pt;} 
